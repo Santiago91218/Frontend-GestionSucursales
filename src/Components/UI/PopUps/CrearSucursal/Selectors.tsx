@@ -59,7 +59,7 @@ export const Selectors: FC<Props> = ({ onLocalidadChange }) => {
       setLoadingLocalidades(true);
       try {
         const response = await axios.get(
-          `http://localhost:8080/localiades/findByProvincia/${selectedProvincia}`
+          `http://localhost:8080/localidades/findByProvincia/${selectedProvincia}`
         );
         setLocalidades(response.data);
       } catch (error) {
