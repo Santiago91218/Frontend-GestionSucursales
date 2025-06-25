@@ -1,0 +1,19 @@
+.containerCard {
+  background-color: #efeffc;
+  width: 15vw;
+  border: 1px solid rgb(211, 211, 211);
+}
+
+.tittleCard {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.6rem;
+  font-family: "Unbounded", sans-serif;
+}
+
+.contentIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6vw;
+}

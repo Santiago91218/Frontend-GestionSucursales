@@ -1,0 +1,98 @@
+.mainDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: left;
+  z-index: 999;
+  font-family: "Unbounded", sans-serif;
+}
+.mainDiv.hidden {
+  background-color: transparent;
+  width: 0;
+  height: 0;
+}
+.divBar {
+  gap: 1000px;
+  height: 100vh;
+  width: 20vw;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.divBar.hidden {
+  transform: translateX(-100%);
+}
+
+.barTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.barTitle h1 {
+  font-size: 3vw;
+}
+
+.enlaces {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.enlaces h2 {
+  font-size: 1.5vw;
+}
+
+.divText {
+  background-color: #acc4ff80;
+  border-radius: 20px;
+  width: 18vw;
+  transition: 200ms;
+  align-items: center;
+}
+
+.divText:hover {
+  cursor: pointer;
+  background-color: #acc4ff;
+}
+
+.divTextSelected {
+  background-color: #acc4ff;
+}
+
+.arrowButton {
+  position: absolute;
+  top: 50%;
+  left: 19.5vw;
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+  font-size: 2vw;
+  color: rgba(0, 0, 0, 0.608);
+  cursor: pointer;
+  transition: left 0.5s ease, color 0.2s;
+}
+
+.arrowButton.hidden {
+  left: 1px;
+  top: 50vh;
+}
+
+.arrowButton:hover {
+  color: rgb(0, 0, 0);
+}
+
+.divText {
+  text-decoration: none;
+  color: black;
+}

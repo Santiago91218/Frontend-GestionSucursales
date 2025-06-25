@@ -1,0 +1,114 @@
+.mainDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  font-family: "Unbounded", sans-serif;
+}
+
+.popUp {
+  height: 75%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.headerPopUp {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+
+.form {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.divColums {
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: 1.2fr 1.3fr 1.2fr;
+  gap: 10px;
+}
+
+.colums {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.smallInput {
+  border: none;
+  box-shadow: none;
+  width: 40%;
+  height: 12%;
+  border-radius: 7px;
+  background-color: #d9d9d9;
+  color: rgb(87, 87, 87);
+  margin: 0.3rem;
+  outline: none;
+  padding: 0.5rem;
+}
+
+.cotainerImg {
+  display: flex;
+  grid-template-columns: 1.2fr 1.6fr;
+  width: 60%;
+  border-radius: 10px;
+  height: 28%;
+  background-color: #d9d9d9;
+  margin-bottom: 5px;
+}
+
+.divImg {
+  width: 50%;
+  height: 100%;
+}
+
+.divSrc {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerCheck {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.largeInput {
+  border: none;
+  box-shadow: none;
+  width: 85%;
+  height: 15%;
+  border-radius: 7px;
+  background-color: #d9d9d9;
+  color: rgb(87, 87, 87);
+  margin: 0.3rem;
+  outline: none;
+  padding: 0.5rem;
+}

@@ -1,0 +1,106 @@
+.mainDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.modalAlergeno {
+  display: flex;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+  width: 25%;
+  height: 60%;
+  border-radius: 0.5rem;
+}
+
+.contentTittle {
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: 2rem;
+  margin-left: 3.5rem;
+  margin-top: -25rem;
+}
+
+.contentbutton {
+  position: absolute;
+  left: 97%;
+  top: -80%;
+}
+
+.contentTittle h2 {
+  font-size: 2.3rem;
+}
+
+.formCrearAlergeno {
+  position: absolute;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.formCrearAlergeno input {
+  width: 15vw;
+  height: 8vh;
+  padding: 8px;
+  background-color: #acc4ff;
+  outline: none;
+  border: 1px solid rgb(158, 158, 158);
+}
+
+.formCrearAlergeno input:hover {
+  cursor: pointer;
+  background-color: #bdcefc;
+}
+
+.contentInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2vh;
+}
+
+.contentInputs input {
+  padding: 8px;
+  width: 22vw;
+  height: 5vh;
+  text-align: left;
+  background-color: #acc4ff;
+  border-radius: 0.5rem;
+  border: 1px solid rgb(158, 158, 158);
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+}
+
+.imgContainer input {
+  border-radius: 0.5rem;
+  width: 22vw;
+  padding-bottom: 100px;
+  object-fit: fill;
+  margin: 0 auto;
+  gap: 2vh;
+  border-radius: 0.4rem;
+  overflow: hidden;
+}

@@ -1,0 +1,19 @@
+.buttonAdm {
+  background-color: transparent;
+  border: 1px solid #37943f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.4rem;
+}
+
+.customIcon {
+  color: #37943f;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.customIcon:hover {
+  color: #0b6613;
+}

@@ -1,0 +1,10 @@
+.customIcon {
+  font-size: 2rem;
+  color: green;
+  transition: 500ms;
+}
+
+.customIcon:hover {
+  color: rgb(39, 170, 39);
+  cursor: pointer;
+}

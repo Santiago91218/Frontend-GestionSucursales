@@ -1,0 +1,75 @@
+.mainDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modalCategoria {
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+  width: 25%;
+  height: 55%;
+  border-radius: 0.5rem;
+}
+
+.contentTittle {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -22rem;
+  width: 100%;
+}
+
+.contentTittle h2 {
+  font-size: 2.3rem;
+}
+.contentbutton {
+  position: absolute;
+  left: 98%;
+  top: -80%;
+}
+
+.formCrearCategoria {
+  position: absolute;
+  margin-top: 12vh;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 12vh;
+}
+
+.contentInputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentInputs input {
+  width: 18vw;
+  height: 5vh;
+  padding: 8px;
+  background-color: #acc4ff;
+  outline: none;
+  border: 1px solid rgb(158, 158, 158);
+  border-radius: 0.4rem;
+}
+
+.contentInputs input:hover {
+  cursor: pointer;
+  background-color: #bdcefc;
+}

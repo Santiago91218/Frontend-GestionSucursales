@@ -1,0 +1,26 @@
+.mainDiv {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.containerTabla {
+  margin-top: 5vh;
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+.cotentButton {
+  width: 1.8rem;
+  height: 1.8rem;
+  position: absolute;
+  top: 1.5rem;
+  right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+}

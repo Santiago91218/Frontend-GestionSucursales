@@ -1,0 +1,46 @@
+.mainDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  font-family: "Unbounded", sans-serif;
+}
+.cardContainer {
+  position: relative;
+  width: 20vw;
+  height: 50vh;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardContainer span {
+  position: absolute;
+  right: 1px;
+  font-size: 30px;
+  color: #ab7d7d;
+}
+.cardContainer span:hover {
+  cursor: pointer;
+  color: #b81616;
+}
+.bodyContainer {
+  font-size: 20px;
+  width: 75%;
+  height: 100%;
+
+  margin: 20px;
+}
+
+.bodyContainer img {
+  width: 300px;
+  height: 180px;
+}

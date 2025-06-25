@@ -1,0 +1,39 @@
+.buttonEmpresa {
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border: 2px solid #266f26;
+  background-color: transparent;
+  color: #266f26;
+  border-radius: 0.5rem;
+  box-shadow: 2px 5px 10px rgb(172, 172, 172);
+}
+
+.buttonEmpresa:hover {
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+
+.divContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #d9d9d9;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #b1b1b1;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9b9b9b;
+}

@@ -1,0 +1,49 @@
+.mainDiv {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  font-family: "Unbounded", sans-serif;
+}
+
+.modalProcutos {
+  position: relative;
+  width: 20vw;
+  height: 50vh;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalProcutos span {
+  position: absolute;
+  right: 1px;
+  font-size: 30px;
+  color: #ab7d7d;
+}
+
+.modalProcutos span:hover {
+  cursor: pointer;
+  color: #b81616;
+}
+
+.contentTittle h4 {
+  text-align: center;
+}
+
+.bodyContainer {
+  font-size: 20px;
+  width: 75%;
+  height: 100%;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+}

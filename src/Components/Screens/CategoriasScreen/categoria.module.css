@@ -1,0 +1,38 @@
+.mainDiv {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.add {
+  font-size: large;
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+
+.span {
+  margin-right: 26%;
+}
+
+.containerCategorias {
+  border-radius: 1.5rem;
+  width: 65%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  gap: 5px;
+  height: 85%;
+  background-color: transparent;
+}
+
+.textNot {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
